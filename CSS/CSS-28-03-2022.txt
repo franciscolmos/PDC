@@ -1,0 +1,28 @@
+Parciales:
+2 mayo -> Primer parcial
+
+Hojas de estilo: 
+* Def doc HTML (inline)
+* CSS (Cascade Style Sheet)
+
+<head>
+	<style type="text/css"> -> para linkear el archivo css
+	!important -> sirve para darle mas prioridad a este estilo
+	
+unidades de medida:
+fijas: * px = pixel
+       * pc = pica = 12 px
+       * cm = centimetro
+       * in = pulgadas
+       * %  = porcentje
+relativas: * rem = Hereda del bloque anterior
+	   * vh = 1% alto dispositivo
+           * vw = 1% ancho dispositivo
+	   * Vmin / Vmax
+	   * ch
+  	   * em
+	   * ex
+	   * gd
+
+
+	

@@ -1,0 +1,16 @@
+PDC
+
+INTERNET: COMUNICACIONES POR CABLE POR EJEMPLO
+WEB: PARTES Y RED
+
+Arquitectura Cliente Servidor
+
+Servidor <---------------> Cliente
+
+Http: protocolo (documentos que van y vienen entre diferentes máquinas), puerto 80
+protocolo de transporte: las cosas que viajan por la internet son fragmentadas por segmentos y cada parte tiene un identificador único (dirección ip)
+
+coockies: programas que alamcenan información del lado del cliente
+
+Formas de autenticarse: asimétrica (criptografía de clave pública), certificado de clave digital (una máquina es confiable en un servidor determinado), los tokens son asimétricos con sincronizacion de clave pública
+SSL: similar a una VPN, te autoriza a conectarte a una red. SSL es un certificado digital que autentica la identidad de un sitio web y habilita una conexión cifrada. La sigla SSL significa Secure Sockets Layer

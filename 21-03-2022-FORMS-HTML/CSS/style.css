@@ -1,0 +1,26 @@
+.container:hover {
+    background-color: rgb(190, 188, 188);
+    transition: 0.7s;
+}
+
+.container1:hover {
+    background-color: rgb(190, 188, 188);
+    transition: 0.7s;
+}
+
+.container2:hover {
+    background-color: rgb(190, 188, 188);
+    transition: 0.7s;
+}
+
+
+body {
+    background-color: rgb(190, 188, 188);
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: green;
+  }
+}
+

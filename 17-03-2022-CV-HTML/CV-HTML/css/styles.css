@@ -1,0 +1,24 @@
+.section {
+    text-align: left;
+    padding-left: 20%;
+    margin-bottom: 30px;
+    line-height: 30px;
+}
+
+img {
+    width: 20px;
+}
+
+h1 {
+    background-color:aliceblue;
+}
+
+h3 {
+    background-color: #F7F7F7;
+}
+
+.form-imputs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
