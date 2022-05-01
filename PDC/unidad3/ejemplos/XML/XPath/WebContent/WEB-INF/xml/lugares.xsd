@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:complexType name="lugar">
+        <xsd:sequence>
+            <xsd:element name="codigo" minOccurs="1" maxOccurs="1" />
+            <xsd:element name="nombre" minOccurs="1" maxOccurs="1" />
+        </xsd:sequence>
+    </xsd:complexType>
+
+    <xsd:element name="lugares">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="origenes" minOccurs="0" maxOccurs="unbounded">
+			        <xsd:complexType>
+			            <xsd:sequence>
+			                <xsd:element name="origen" minOccurs="0" maxOccurs="unbounded" type="lugar"/>
+			            </xsd:sequence>
+			        </xsd:complexType>
+                </xsd:element>
+                <xsd:element name="destinos" minOccurs="0" maxOccurs="unbounded">
+			        <xsd:complexType>
+			            <xsd:sequence>
+			                <xsd:element name="destino" minOccurs="0" maxOccurs="unbounded" type="lugar"/>
+			            </xsd:sequence>
+			        </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>    

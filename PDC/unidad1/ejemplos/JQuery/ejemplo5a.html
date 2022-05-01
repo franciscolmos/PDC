@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta charset="iso-8859-1">
+        <meta name="description" content="Ejemplos de JQuery">
+		<meta name="author" content="Lic. Mariela Pastarini">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jQuery - Ejemplo 5 A</title>
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap-theme.min.css">
+        <script type="text/javascript" src="./bootstrap.3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/ejemplo5.js"></script>
+    </head>
+    <body>
+        <div id="bloque">
+        	<p>P&aacute;rrafo 1</p>
+        	<p>P&aacute;rrafo 2</p>
+        	<p>P&aacute;rrafo 3</p>
+        </div>
+        <div class="caja">
+            <p id="parrafo">P&aacute;rrafo hijo</p>
+        </div>
+        <h2 id="titulo">Este es un t&iacute;tulo</h2>
+        <h3>Definir URL</h3>
+        <label>Ingrese URL 1: <input type="text" id="texto1" class="form-control" value="http://mi.ubp.edu.ar" size="30" maxlength="255"></label>
+        <br/><br/>
+        <label>Ingrese URL 2: <input type="text" id="texto2" class="form-control" value="http://www.ubp.edu.ar" size="30" maxlength="255"></label>
+        <div id="links1" class="bloque"></div>
+        <div id="links2" class="bloque"></div>
+        <br><br>
+        <fieldset>
+            <legend>Acciones</legend>
+			<button class="btn btn-default" onclick="jUtils.cambiarColores()">Cambiar colores</button>
+			<button class="btn btn-default" onclick="jUtils.cambiarTextoParrafosHijos()">Cambiar texto p&aacute;rrafos hijos</button>
+			<button class="btn btn-default" onclick="jUtils.cambiarFondoPadre()">Cambiar fondo padre</button>
+			<button class="btn btn-default" onclick="jUtils.cambiarTextoParrafos()">Cambiar texto p&aacute;rrafos</button>
+			<input type="button" class="btn btn-default" id="idBoton" name="miBoton" value="Mostrar datos del bot&oacute;n" onclick="jUtils.mostrarDatosBoton(this)">
+			<button class="btn btn-default" onclick="jUtils.cambiarColor()">Cambiar color</button>
+			<button class="btn btn-default" onclick="jUtils.cambiarTexto()">Cambiar texto</button>
+			<button class="btn btn-default" onclick="jUtils.cambiarTamLetra()">Cambiar tama&ntilde;o de letra</button>
+			<button class="btn btn-default" onclick="jUtils.crearLinks()">Crear links</button>
+        </fieldset>
+        <br/>
+        <a href="./index.html">Volver al index principal</a>
+    </body>
+</html>

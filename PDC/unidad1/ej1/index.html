@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/theme.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <title>Ejercicio 1</title>
+</head>
+<body>
+    <div id="aux" class="row" hidden>
+        <div class="col"> <input type="text" class="form-control" id="iapellido" name="apellido" maxlength="40"required> </div>
+        <div class="col"> <input type="text" class="form-control" id="iname" name="name" maxlength="100" required> </div>
+        <div class="col">
+            <select name="parentesco" id="iparentesco" class="form-control" required>
+                <option value=""></option>
+                <option value="Padre"> Padre </option>
+                <option value="Madre"> Madre </option>
+                <option value="Hermano/a"> Hermano/a </option>
+                <option value="Hijo"> Hijo </option>
+                <option value="Conyuge"> Conyuge </option>
+            </select>
+        </div>
+        <div class="col" onchange="JTable.alive(this)"> 
+            <label for="isi"> si <input type="radio" name="vive" id="isi" value="si" checked>  </label> 
+            <label for="ino"> no <input type="radio" name="vive" id="ino" value="no"> </label> 
+        </div>
+        <div class="col"> <input type="number" class="form-control" name="nacimiento" id="inacimiento" min="0" maxlength="4" required> </div>
+        <div class="col"> 
+            <select name="ocupacion" id="iocupacion" class="form-control" required>
+                <option value=""></option>
+                <option value="Empleado"> Empleado</option>
+                <option value="Empresario">Empresario</option>
+                <option value="Independiente">Independiente</option>
+                <option value="Jubilado">Jubilado</option>
+                <option value="No Trabaja">No Trabaja</option>
+            </select>
+        </div>
+        <div class="col"> <input type="email" class="form-control" name="mail" id="imail" maxlength="255" required> </div>
+        <div class="col"> <img src="./image/delete.png" id="image" width="40" height="35" onclick="JTable.delete(this)"></div>
+    </div>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col"> <label > Apellido </label> </div>
+            <div class="col"> <label > Nombre </label> </div>
+            <div class="col"> <label > Parentesco </label> </div>
+            <div class="col"> <label > Vive </label> </div>
+            <div class="col"> <label > Año de Nacimiento </label> </div>
+            <div class="col"> <label > Ocupacion </label> </div>
+            <div class="col"> <label > E-mail </label> </div>
+            <div class="col"></div>
+        </div>
+        <form id="form" method="post">
+            <div id="table">
+            </div>
+            <br>
+            <button type="button" class="btn btn-primary" id="add" > Agregar </button>
+            <button type="reset" class="btn btn-primary" id="clean"> Limpiar </button>
+            <button type="submit" class="btn btn-primary"> Enviar por E-Mail</button>
+        </form>
+    </div>
+</body>
+</html>

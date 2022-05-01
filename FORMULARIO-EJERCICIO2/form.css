@@ -1,0 +1,13 @@
+.celda-consulta{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.input-consulta{
+    width: 95%;
+}
+
+.checkbox{
+    display: flex;
+    justify-content: center;
+}

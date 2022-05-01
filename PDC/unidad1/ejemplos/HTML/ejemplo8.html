@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Ejemplos de HTML">
+		<meta name="author" content="Lic. Mariela Pastarini">
+
+        <title>HTML - Ejemplo 8</title>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+        <style type="text/css">
+        p {
+            text-transform: uppercase;
+            font-family: "Trebuchet MS", Hervetica, sans-serif;
+            font-size: 12pt;
+        }
+        ul {
+            list-style-type: square;
+            text-transform: capitalize;
+        }
+        ul.lista {
+            list-style-image: url("./img/li.gif");
+            text-transform: lowercase;
+        }
+        .color {
+        	color: #dd56ff;
+        }
+        #opcion2 {
+            list-style-type: disc;
+            list-style-image: none;
+        }
+        #parrafo a, #parrafo a:hover, #parrafo a:visited {
+			color: #0f0 !important;
+		}
+        </style>
+    </head>
+    <body>
+        <b class="color">Hojas de Estilos</b>
+        <p>
+            El lenguaje HTML está limitado a la hora de aplicarle forma a un documento. Esto es así porque fue concebido para otros usos, distinto a los actuales.<br/>
+            Las hojas de estilo intentan separar el contenido de una página de la forma de presentarlo en pantalla. Esto lo hacen personificando los cambios que las etiquetas de formato HTML realizan en nuestro texto.
+        </p>
+        <div style="width:400px;background-color:#0099aa;color:#fff;">
+            El modo de funcionamiento de las CSS consiste en definir, mediante una sintaxis especial, la forma de presentación que le aplicaremos a: <br/>
+            <ul>
+                <li>Un  sitio Web entero, de modo que se puede definir la forma de todo el sitio de una sola vez.</li>
+                <li>Un documento HTML o página, se puede definir la forma, en un pequeño trozo de código en la cabecera, a toda la página.</li>
+                <li>Una porción del documento, aplicando estilos visibles en un trozo de la página.</li>
+                <li>Una etiqueta en concreto, llegando incluso a poder definir varios estilos diferentes para una sola etiqueta.</li>
+            </ul>
+            <br/>
+            <a href="#abajo">Ir abajo</a>
+        </div>
+        <div id="parrafo">
+        	<div class="fl">
+				<h4>Unidades de medida absoluta</h4>
+				<table>
+					<tr>
+						<th>Unidad</th>
+						<th>Descripción</th>
+					</tr>
+					<tr>
+						<td>%</td>
+						<td>Porcentaje. El tamaño actual de la fuente es el 100% (escalable)</td>
+					</tr>
+					<tr>
+						<td>cm</td>
+						<td>Cent&iacute;metros</td>
+					</tr>
+					<tr>
+						<td>in</td>
+						<td>Pulgadas</td>
+					</tr>
+					<tr>
+						<td>mm</td>
+						<td>Milímetros</td>
+					</tr>
+					<tr>
+						<td>pc</td>
+						<td>Picas (1pc = 12 pt)</td>
+					</tr>
+					<tr>
+						<td>pt</td>
+						<td>Puntos (1pt = 1/72 pulgada)</td>
+					</tr>
+				</table>
+			</div>
+			<div class="fl">
+				<h4>Unidades de medida relativas</h4>
+				<table>
+					<tr>
+						<th>Unidad</th>
+						<th>Descripción</th>
+					</tr>
+					<tr>
+						<td>ch</td>
+						<td>Ancho del glyph (glifo) cero "0" de la fuente</td>
+					</tr>
+					<tr>
+						<td>em</td>
+						<td>Tamaño de la fuente actual. Altura de la M de la fuente del elemento actual</td>
+					</tr>
+					<tr>
+						<td>ex</td>
+						<td>Altura de la x de la fuente del elemento actual</td>
+					</tr>
+					<tr>
+						<td>gd</td>
+						<td>La gradilla definida por layout-grid. Si no está definida, equivale a em</td>
+					</tr>
+					<tr>
+						<td>px</td>
+						<td>Pixel del dispositivo de visionado</td>
+					</tr>
+					<tr>
+						<td>rem</td>
+						<td>El tamaño de la fuente del elemento raíz</td>
+					</tr>
+					<tr>
+						<td>vh</td>
+						<td>1% Altura del dispositivo de visionado (variable dinámicamente)</td>
+					</tr>
+					<tr>
+						<td>vw</td>
+						<td>1% Anchura del dispositivo de visionado (variable dinámicamente)</td>
+					</tr>
+					<tr>
+						<td>vmin (vm)</td>
+						<td>El menor de los valores, 1% altura o anchura, del dispositivo de visionado (variable dinámicamente)</td>
+					</tr>
+					<tr>
+						<td>vmax</td>
+						<td>El mayor de los valores, 1% altura o anchura, del dispositivo de visionado (variable dinámicamente)</td>
+					</tr>
+				</table>
+			</div>
+            <div class="cb">
+				<h4>Algunas consideraciones acerca de las unidades</h4>
+				<p>Si bien el comentario más general ya lo hemos expuesto con anterioridad, las fuentes relativas son escalables y las absolutas son, lo exponemos ahora, más adecuadas para las tareas de impresión, repasaremos someramente algunos aspectos particulares:
+					<ul class="lista color">
+						<li>Respecto a los puntos (pt), picas (pc), pulgadas (in), centímetros (cm) y milímetros (mm), en todos los casos su utilización para mostrar texto en pantalla no es lo más ideal –ni fueron pensadas para ello-, dado que los ordenadores sólo son capaces de aproximar rudimentariamente las medidas físicas a la ventana del monitor. Por el contrario son perfectas para definir fuentes para impresión.</li>
+						<li>Los pixeles (px) son sin duda la unidad más comúnmente utilizada, sin embargo distan de ser lo más adecuado en un buen diseño. Los textos que han sido fijados en pixeles no pueden ser redimensionados por el usuario en los navegadores. La traslación de pixeles a papel en la impresión da resultados erráticos e impredecibles, intentando simular las dimensiones de un pixel.
+						<li>En CSS3, se trabaja con el denominado pixel de referencia, que equivale a 1/96 de pulgada, aproximadamente 0,26mm, que obvia muchos de los inconvenientes antes descritos.
+						<li>Los ems (em) y exes (ex), tanto en uno como en otro caso, nos encontramos con referencias relativas, especialmente adecuadas para la asignación de fuentes en pantalla; los ems han ganado mucha popularidad y son una unidad muy recomendable. En el momento presente, la unidad ex no está plenamente soportada por los navegadores, muchos de los cuales, simplemente, hacen una valoración aproximada de su tamaño.
+						<li>El porcentaje (%), permite el redimensionamiento sencillo de las fuentes en pantalla. Un valor del 100% significa el tamaño de la fuente actual, típicamente 1em o 12pt. Obviamente, es una medida adecuada para visualizaciones en pantallas y mucho menos para impresión.
+					</ul>
+				</p>
+				<p>Una discusión interesante acerca de algunas unidades puede leerse en la dirección URL: <a href="http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/" target="_blank">http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/</a></p>
+			</div>
+		</div>
+        <br/><br/>
+        <a name="abajo" href="./index.html">Volver al index principal</a>
+    </body>
+</html>

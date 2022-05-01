@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Ejemplos de jQuery">
+		<meta name="author" content="Lic. Mariela Pastarini">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jQuery - Ejemplo 5 B</title>
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap-theme.min.css">
+        <script type="text/javascript" src="./bootstrap.3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/ejemplo5.js"></script>
+	</head>
+	<body>
+	<h2>DESIDERATA</h2>
+	<div class="poema">
+		<p id="A" class="poesia">
+			Camina plácido entre el ruido y la prisa<br>
+			y piensa en la paz que se puede encontrar en el silencio.<br>
+			En cuanto sea posible y sin rendirte,<br>
+			mantén buenas relaciones con todas las personas.<br>
+			Enuncia tu verdad de una manera serena y clara<br>
+			y escucha a los demás, incluso al torpe e ignorante,<br>
+			también ellos tienen su propia historia.
+		</p>
+
+		<p id="B" class="poesia">
+			Esquiva a las personas ruidosas y agresivas,<br>
+			ya que son un fastidio para el espíritu.<br>
+			Si te comparas con los demás, te volverás vano y amargado,<br>
+			pues siempre habrá personas más grandes y más pequeñas que tú.
+		</p>
+
+		<p id="C" class="poesia">
+			Disfruta de tus éxitos lo mismo que de tus planes.<br>
+			Mantén el interés en tu propia carrera<br>
+			por humilde que sea, ella es un verdadero tesoro<br>
+			en el fortuito cambiar de los tiempos.
+		</p>
+
+		<p id="D" class="poesia">
+			Sé cauto en tus negocios pues el mundo está lleno de engaños,<br>
+			mas no dejes que esto te vuelva ciego para la virtud que existe.<br>
+			Hay muchas personas que se esfuerzan por alcanzar nobles ideales.<br>
+			La vida esta llena de heroísmo.<br>
+			Sé sincero contigo mismo, en especial no finjas el afecto<br>
+			Y no seas cínico en el amor,<br>
+			pues en medio de todas las arideces y desengaños,<br>
+			es perenne como la hierba.
+		</p>
+	</div>
+	<div class="poema">
+		<p id="E" class="poesia">
+			Acata dócilmente el consejo de los años<br>
+			abandonando con donaire las cosas de la juventud.<br>
+			Cultiva la firmeza del espíritu,<br>
+			para que te proteja en las adversidades repentinas.<br>
+			Muchos temores nacen de la fatiga y la soledad.<br>
+			Sobre una sana disciplina, se benigno contigo mismo.<br>
+			Tú eres una criatura del universo.<br>
+			No menos que las plantas y las estrellas,<br>
+			tienes derecho a existir.
+		</p>
+
+		<p id="F" class="poesia">
+			Y sea que te resulte claro o no,<br>
+			indudablemente el universo marcha como debiera.<br>
+		</p>
+
+		<p id="G" class="poesia">
+			Por eso debes estar en paz con Dios<br>
+			cualquiera que sea tu idea de Él.<br>
+			Y sean cualesquiera tus trabajos y aspiraciones,<br>
+			conserva la paz con tu alma en la bulliciosa confusión de la vida.<br>
+			Aún con toda su farsa, penalidades y sueños fallidos,<br>
+			el mundo es todavía hermoso.
+		</p>
+
+		<p id="H" class="poesia">
+			Sé cauto, ¡esfuérzate por ser feliz!
+		</p>
+	</div>
+	<div class="col-md-8 form-inline">
+		<div class="form-group">
+		<label class="control-label" for="V">Tamaño de fuente:</label>
+		<input id="V" type="number" class="form-control" step=".01" required>
+		<select id="U" class="form-control" required>
+			<option value="">Unidad</option>
+			<optgroup label="Absolutas">
+				<option value="%">%</option>
+				<option value="cm">cm</option>
+				<option value="mm">mm</option>
+				<option value="pc">pc</option>
+				<option value="pt">pt</option>
+			</optgroup>
+			<optgroup label="Relativas">
+				<option value="ch">ch</option>
+				<option value="em">em</option>
+				<option value="ex">ex</option>
+				<option value="gd">gd</option>
+				<option value="px">px</option>
+				<option value="rem">rem</option>
+				<option value="vh">vh</option>
+				<option value="vw">vw</option>
+				<option value="vmin">vmin</option>
+				<option value="vmax">vmax</option>
+			</optgroup>
+		</select>
+		<button class="btn btn-primary" onclick="jUtils.aplicar()">Aplicar</button>
+		<br><br>
+		<a href="./index.html">Volver al index principal</a>
+	</div>
+	</body>
+</html>

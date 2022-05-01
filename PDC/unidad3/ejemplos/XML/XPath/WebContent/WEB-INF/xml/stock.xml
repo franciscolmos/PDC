@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="./stock.xsd">
+    <producto>
+        <id>1</id>
+        <nom>Lapicera</nom>
+        <cant>10</cant>
+    </producto>
+    <producto>
+        <id>2</id>
+        <nom>Plasticola</nom>
+        <cant>4</cant>
+    </producto>
+    <producto>
+        <id>3</id>
+        <nom>Lápiz</nom>
+        <cant>0</cant>
+    </producto>
+    <producto>
+        <id>4</id>
+        <nom>Resma de Papel A4</nom>
+        <cant>0</cant>
+    </producto>
+    <producto>
+        <id>5</id>
+        <nom>Cartulinas</nom>
+        <cant>0</cant>
+    </producto>
+    <producto>
+        <id>6</id>
+        <nom>Caja de colores</nom>
+        <cant>1</cant>
+    </producto>
+    <producto>
+        <id>7</id>
+        <nom>Papel crepe</nom>
+        <cant>0</cant>
+    </producto>
+</productos>

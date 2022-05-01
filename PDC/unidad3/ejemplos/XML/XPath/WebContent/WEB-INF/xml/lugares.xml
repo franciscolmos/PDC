@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<lugares xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="./lugares.xsd">
+    <origenes>
+        <origen>
+          <codigo>B</codigo>
+          <nombre>BUENOS AIRES</nombre>
+        </origen>
+        <origen>
+          <codigo>K</codigo>
+          <nombre>CATAMARCA</nombre>
+        </origen>
+        <origen>
+          <codigo>H</codigo>
+          <nombre>CHACO</nombre>
+        </origen>
+        <origen>
+          <codigo>U</codigo>
+          <nombre>CHUBUT</nombre>
+        </origen>
+        <origen>
+          <codigo>X</codigo>
+          <nombre>CÓRDOBA</nombre>
+        </origen>
+        <origen>
+          <codigo>W</codigo>
+          <nombre>CORRIENTES</nombre>
+        </origen>
+        <origen>
+          <codigo>E</codigo>
+          <nombre>ENTRE RIOS</nombre>
+        </origen>
+        <origen>
+          <codigo>P</codigo>
+          <nombre>FORMOSA</nombre>
+        </origen>
+        <origen>
+          <codigo>Y</codigo>
+          <nombre>JUJUY</nombre>
+        </origen>
+        <origen>
+          <codigo>L</codigo>
+          <nombre>LA PAMPA</nombre>
+        </origen>
+        <origen>
+          <codigo>F</codigo>
+          <nombre>LA RIOJA</nombre>
+        </origen>
+        <origen>
+          <codigo>M</codigo>
+          <nombre>MENDOZA</nombre>
+        </origen>
+        <origen>
+          <codigo>N</codigo>
+          <nombre>MISIONES</nombre>
+        </origen>
+        <origen>
+          <codigo>Q</codigo>
+          <nombre>NEUQUEN</nombre>
+        </origen>
+        <origen>
+          <codigo>R</codigo>
+          <nombre>RIO NEGRO</nombre>
+        </origen>
+        <origen>
+          <codigo>A</codigo>
+          <nombre>SALTA</nombre>
+        </origen>
+        <origen>
+          <codigo>J</codigo>
+          <nombre>SAN JUAN</nombre>
+        </origen>
+        <origen>
+          <codigo>D</codigo>
+          <nombre>SAN LUIS</nombre>
+        </origen>
+        <origen>
+          <codigo>Z</codigo>
+          <nombre>SANTA CRUZ</nombre>
+        </origen>
+        <origen>
+          <codigo>S</codigo>
+          <nombre>SANTA FE</nombre>
+        </origen>
+        <origen>
+          <codigo>G</codigo>
+          <nombre>SANTIAGO DEL ESTERO</nombre>
+        </origen>
+        <origen>
+          <codigo>V</codigo>
+          <nombre>TIERRA DEL FUEGO</nombre>
+        </origen>
+        <origen>
+          <codigo>T</codigo>
+          <nombre>TUCUMAN</nombre>
+        </origen>
+    </origenes>
+    <destinos>
+        <destino>
+          <codigo>B</codigo>
+          <nombre>BUENOS AIRES</nombre>
+        </destino>
+        <destino>
+          <codigo>K</codigo>
+          <nombre>CATAMARCA</nombre>
+        </destino>
+        <destino>
+          <codigo>H</codigo>
+          <nombre>CHACO</nombre>
+        </destino>
+        <destino>
+          <codigo>U</codigo>
+          <nombre>CHUBUT</nombre>
+        </destino>
+        <destino>
+          <codigo>X</codigo>
+          <nombre>CÓRDOBA</nombre>
+        </destino>
+        <destino>
+          <codigo>W</codigo>
+          <nombre>CORRIENTES</nombre>
+        </destino>
+        <destino>
+          <codigo>E</codigo>
+          <nombre>ENTRE RIOS</nombre>
+        </destino>
+        <destino>
+          <codigo>P</codigo>
+          <nombre>FORMOSA</nombre>
+        </destino>
+        <destino>
+          <codigo>Y</codigo>
+          <nombre>JUJUY</nombre>
+        </destino>
+        <destino>
+          <codigo>L</codigo>
+          <nombre>LA PAMPA</nombre>
+        </destino>
+        <destino>
+          <codigo>F</codigo>
+          <nombre>LA RIOJA</nombre>
+        </destino>
+        <destino>
+          <codigo>M</codigo>
+          <nombre>MENDOZA</nombre>
+        </destino>
+        <destino>
+          <codigo>N</codigo>
+          <nombre>MISIONES</nombre>
+        </destino>
+        <destino>
+          <codigo>Q</codigo>
+          <nombre>NEUQUEN</nombre>
+        </destino>
+        <destino>
+          <codigo>R</codigo>
+          <nombre>RIO NEGRO</nombre>
+        </destino>
+        <destino>
+          <codigo>A</codigo>
+          <nombre>SALTA</nombre>
+        </destino>
+        <destino>
+          <codigo>J</codigo>
+          <nombre>SAN JUAN</nombre>
+        </destino>
+        <destino>
+          <codigo>D</codigo>
+          <nombre>SAN LUIS</nombre>
+        </destino>
+        <destino>
+          <codigo>Z</codigo>
+          <nombre>SANTA CRUZ</nombre>
+        </destino>
+        <destino>
+          <codigo>S</codigo>
+          <nombre>SANTA FE</nombre>
+        </destino>
+        <destino>
+          <codigo>G</codigo>
+          <nombre>SANTIAGO DEL ESTERO</nombre>
+        </destino>
+        <destino>
+          <codigo>V</codigo>
+          <nombre>TIERRA DEL FUEGO</nombre>
+        </destino>
+        <destino>
+          <codigo>T</codigo>
+          <nombre>TUCUMAN</nombre>
+        </destino>
+    </destinos>
+</lugares>    

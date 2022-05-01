@@ -1,0 +1,49 @@
+* {
+    font-family: 'Verdana', 'Arial', sans-serif;
+    font-size: 20px;
+    color: #000;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+	padding: 1em;
+    height: 100vh;
+    background: #a0a0a0;
+}
+
+.container .title {
+	color: #fff;
+}
+
+.container table {
+	border-collapse: collapse;
+	margin-bottom: 10px;
+}
+
+.container table tr td {
+	border: solid #000 1px;
+	padding: 20px;
+	text-align: center;
+	background: #fff;
+}
+
+.container .message {
+	font-size: 16px;
+	width: 300px;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.container .message.won {
+	background: #00b300;
+}
+
+.container .message.lost {
+	background: #800000;
+}

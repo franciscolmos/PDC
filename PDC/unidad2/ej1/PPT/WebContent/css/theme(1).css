@@ -1,0 +1,71 @@
+body {
+	background-color: #b3ffb3;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #006600;
+	font-size: 14pt;
+}
+
+h3 {
+	color: #cc0000;
+}
+
+label {
+	font-weight: bold;
+}
+
+button {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	width: 150px;
+	border: 1px solid #800000;
+	padding: 5px;
+	background-color: #800000;
+	color: #ff0000;
+}
+
+table {
+	text-align: left;
+	border-collapse: collapse;
+}
+
+td ,th {
+	border: 1px solid #006600;
+	border-width: medium;
+	width: 100px;
+	height: 20px;
+	padding: 5px;
+}
+
+th {
+	background-color: #004d00;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.tie {
+	background-color: #ffffff;
+}
+
+.win {
+	background-color: #33cc33;
+}
+
+.lose {
+	background-color: #ff1919;
+}
+
+.msg {
+	font-size: 16pt;
+}
+
+div {
+	width: 300px;
+	padding: 10px;
+	background-color: #ffffff;
+	margin-top: 20px;
+	margin-left: 10px;
+	text-align: center;
+	border: 5px solid #800000;
+}
+

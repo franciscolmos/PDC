@@ -1,0 +1,64 @@
+div.caja {
+	border:1px solid #000;
+	width:200px;
+	height:100px;
+}
+
+table thead, th {
+    background-color: #00BFFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody {
+    background-color: #AFEEEE;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: inline;
+}
+
+h2 {
+	text-align: center;
+}
+
+p.poesia {
+	font-style: italic;
+}
+
+div.poema {
+	width: 400px;
+	float: left;
+	margin-left: 10rem;
+}
+
+.cb {
+	clear: both;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  width: 50px;
+}
+
+#clock {
+    position: relative;
+    width: 378px;
+    height: 378px;
+    background-image: url('../img/clockFace.png');
+    left: 50%;
+    margin: 5em 0 0 -189px;
+}
+
+#clock div {
+    position: absolute;
+}

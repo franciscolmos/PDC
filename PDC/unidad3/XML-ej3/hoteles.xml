@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<hoteles_config xmlns="http://www.w3schools.com"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="./hoteles.xsd">
+	<provincias>
+		<provincia codigo="A">SALTA</provincia>
+		<provincia codigo="B">BUENOS AIRES</provincia>
+		<provincia codigo="D">SAN LUIS</provincia>
+		<provincia codigo="E">ENTRE RIOS</provincia>
+		<provincia codigo="F">LA RIOJA</provincia>
+		<provincia codigo="G">SANTIAGO DEL ESTERO</provincia>
+		<provincia codigo="H">CHACO</provincia>
+		<provincia codigo="J">SAN JUAN</provincia>
+		<provincia codigo="K">CATAMARCA</provincia>
+		<provincia codigo="L">LA PAMPA</provincia>
+		<provincia codigo="M">MENDOZA</provincia>
+		<provincia codigo="N">MISIONES</provincia>
+		<provincia codigo="P">FORMOSA</provincia>
+		<provincia codigo="Q">NEUQUEN</provincia>
+		<provincia codigo="R">RIO NEGRO</provincia>
+		<provincia codigo="S">SANTA FE</provincia>
+		<provincia codigo="T">TUCUMAN</provincia>
+		<provincia codigo="U">CHUBUT</provincia>
+		<provincia codigo="V">TIERRA DEL FUEGO</provincia>
+		<provincia codigo="W">CORRIENTES</provincia>
+		<provincia codigo="X">CÓRDOBA</provincia>
+		<provincia codigo="Y">JUJUY</provincia>
+		<provincia codigo="Z">SANTA CRUZ</provincia>
+	</provincias>
+	<tipos_habitaciones>
+		<tipo codigo="D">Doble</tipo>
+		<tipo codigo="F">Familiar</tipo>
+		<tipo codigo="I">Individual</tipo>
+	</tipos_habitaciones>
+</hoteles_config>

@@ -1,0 +1,30 @@
+body {
+	font-family: "Verdanam, Arial";
+	font-size: 10pt;
+}
+
+input {
+	border: 1px solid #000000;
+	width: 400px;
+	margin: 5px;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #FFF;
+	width: 400px;
+}
+
+td, th {
+	border: 1px solid #000000;
+}
+
+th {
+	background-color: #C0C0C0;
+	text-align: left;
+}
+
+.eliminado {
+	color: #F00;
+	text-decoration:line-through;
+}

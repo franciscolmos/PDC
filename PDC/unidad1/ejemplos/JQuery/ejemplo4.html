@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplos de JQuery">
+		<meta name="author" content="Lic. Mariela Pastarini">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jQuery - Ejemplo 4</title>
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap-theme.min.css">
+        <script type="text/javascript" src="./bootstrap.3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/ejemplo4.js"></script>
+        <script type="text/javascript">
+        window.onload = function() {
+			setInterval("displayTime()", 1000);
+			setInterval("startClock()", 1000);
+		}
+		</script>
+    </head>
+    <body>
+    	<h3>Objeto Array</h3>
+    	<h5>Vector 1</h5>
+    	<ul id="lista1">
+        <script type="text/javascript">
+        vector1.sort(compareTo);
+        with($("#lista1")) {
+			for(var i in vector1) {
+				append(["<li>", vector1[i], "</li>"].join(""));
+			}
+		}
+        </script>
+ 	    </ul>
+    	<h5>Vector 2</h5>
+    	<ul id="lista2">
+        <script type="text/javascript">
+		for(var i in vector2) {
+			$("#lista2").append(["<li>", vector2[i], "</li>"].join(""));
+		}
+		</script>
+ 	    </ul>
+    	<br>
+    	<h3>Objeto Date</h3>
+ 	    <h5 id="servertime"></h5>
+		<div id="clock">
+		  <div id="hour"><img src="./img/hourHand.png" /></div>
+		  <div id="minute"><img src="./img/minuteHand.png" /></div>
+		  <div id="second"><img src="./img/secondHand.png" /></div>
+		</div>
+		<br>
+		<h3>Objeto Math</h3>
+    	<div id="math">
+        <script type="text/javascript">
+		var valores = new Array(8, 10, 3, 5, 9, 7, 1, 2, 3, 4, 5, 6);
+		with($("#math")) {
+			append(["<h5>Media: ", med(valores), "</h5>"].join(""));
+			append(["<h5>Varianza: ", varianza(valores), "</h5>"].join(""));
+			append(["<h5>Desv&iacute;o Est&aacute;ndar: ", desvest(valores), "</h5>"].join(""));
+		}
+		</script>
+    	</div>
+    	<br>
+    	<h3>Objeto String</h3>
+        <script type="text/javascript">
+		var valores = "a,1,4,d,z,5";
+		    valores = valores.split(",");
+		$(document.body).append("<ul id=\"lista3\">");
+		for(var i in valores) {
+			$("#lista3").append(["<li>", valores[i].toUpperCase(), "</li>"].join(""));
+		}
+		$(document.body).append("</ul>");
+		</script>
+        <a href="./index.html">Volver al index principal</a>
+    </body>
+</html>

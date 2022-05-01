@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplos de JQuery">
+		<meta name="author" content="Lic. Mariela Pastarini">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jQuery - Ejemplo 1</title>
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap-theme.min.css">
+        <script type="text/javascript" src="./bootstrap.3.3.7/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript">
+        var mensaje = "Este es un mensaje";
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+		alert("Texto: " + mensaje);
+
+        var valor = prompt("Ingrese un valor:");
+        $(document.body).append("<p>El valor informado es: " + valor + "</p>");
+
+        var resp = confirm("¿Desea aceptar este mensaje?");
+        if(resp) {
+        	$(document.body).append("<p>Acept&oacute; el mensaje</p>");
+        }
+        else {
+        	$(document.body).append("<p>Cancel&oacute; el mensaje</p>");
+        }
+
+		eval("$(document.body).append(\"<p>P&aacute;rrafo 1 construido din&aacute;micamente</p>\");");
+		</script>
+
+		<p id="parrafo1">P&aacute;rrafo 1</p>
+		<p id="parrafo2" name="texto">P&aacute;rrafo 2</p>
+		<p id="parrafo3">P&aacute;rrafo 3</p>
+		<p id="parrafo4" name="texto">P&aacute;rrafo 4</p>
+		<i name="texto">Otro texto</i><br/>
+
+		<div id="div" name="parrafos">
+			<p>P1</p>
+			<p>P2</p>
+			<p>P3</p>
+			<p>P4</p>
+		</div>
+
+		<div id="div2">
+			<p>P1</p>
+			<p>P2</p>
+			<p>P3</p>
+			<p>P4</p>
+		</div>
+
+		<div name="parrafos">
+			<p>P1</p>
+			<p>P2</p>
+			<p>P3</p>
+			<p>P4</p>
+		</div>
+
+        <script type="text/javascript" src="./js/ejemplo1.js"></script>
+
+        <a href="./index.html">Volver al index principal</a>
+    </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<areas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xsi:noNamespaceSchemaLocation="./areas.xsd">
+    <area>
+        <codigo>ADM</codigo>
+        <nombre>Administración</nombre>
+    </area>
+    <area>
+        <codigo>BE</codigo>
+        <nombre>Bedelía</nombre>
+    </area>
+    <area>
+        <codigo>CO</codigo>
+        <nombre>Comunicación Institucional</nombre>
+    </area>
+    <area>
+        <codigo>DH</codigo>
+        <nombre>Desarrollo Humano</nombre>
+    </area>
+</areas>

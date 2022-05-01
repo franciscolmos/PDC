@@ -1,0 +1,38 @@
+body {
+	background-color: #a0a0a0;
+	font-family: "Verdana, Arial";
+	font-size: 10pt;
+}
+
+h2 {
+	color: #FFF;
+	font-size: 20pt;
+}
+
+label{
+    border: 1px solid black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    widows: 120px;
+    height: 100px;
+    background-color: #F00;
+    color: #FFF;
+    font-size: 60pt;
+}
+
+table {
+	border-collapse: collapse;
+	background-color: #FFF;
+}
+
+td {
+	border: 1px solid #000000;
+}
+
+button {
+	font-family: "Verdana, Arial";
+	border: 1px solid #000000;
+	background-color: #FFF;
+}

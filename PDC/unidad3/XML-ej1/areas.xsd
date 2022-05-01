@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="areas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="area" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="area">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="codigo" minOccurs="1" maxOccurs="1" />
+                <xs:element name="nombre" minOccurs="1" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+   
+    <xs:element name="codigo" type="xs:string" />
+
+    <xs:element name="nombre" type="xs:string" />
+
+</xs:schema>

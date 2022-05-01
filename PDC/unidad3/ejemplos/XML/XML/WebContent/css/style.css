@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10pt;
+    color: #000;
+}
+
+#error {
+	width: 500px;
+  	height: 200px;
+ 	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -280px;
+	border: 1px solid #000;
+	padding: 30px;
+	background-color: #FF9966;
+}
+
+table {
+	border-spacing: 1px;
+	border-width: 1px;	
+}
+
+table thead, th {
+    background-color: #00BFFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody {
+    background-color: #AFEEEE;
+}
+
+th, td {
+	padding: 5px;
+}

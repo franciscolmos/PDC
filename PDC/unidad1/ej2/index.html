@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ejercicio 2</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</head>
+<body style="background-color: rgba(200, 200, 240, 0.4)">
+    <form id="form" class="container">
+        <br>
+        <b>Ofertas Academicas</b>
+        <br/><br/>
+        <table class="container">
+            <tr>
+                <td class="t1"> <label for="isur"> Apellido: </label></td>
+                <td>
+                    <input class="form-control" type="text" name="sur" id="isur" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"> <label for="iname"> Nombre: </label> </td>
+                <td>
+                    <input class="form-control" type="text" name="name" id="iname" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"><label for="imail"> Email: </label></td>
+                <td>
+                    <input class="form-control" type="email" name="mail" id="imail" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"><label for="iwoman" > Sexo: </label></td>
+                <td>
+                    <label class="col-3">Femenino <input type="radio" name="sexo" id="iwoman" checked></label>
+                    <label class="col-7">Masculino <input type="radio" name="sexo" id="iman"></label>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"><label for="itel"> Telefono: </label></td>
+                <td>
+                    <input class="form-control" type="number" name="tel" id="itel" required>
+                </td>
+            </tr>
+            <tr>
+                <td class="t1"><label for="icon"> Consulta: </label></td>
+                <td>
+                    <textarea class="form-control" name="consulta" id="icon" cols="30" rows="10" maxlength="255" required></textarea>
+                    255 caracteres
+                </td>
+            </tr>
+        </table>
+        <br>
+        <b> Carreras de Interes </b>
+        <br/><br/>
+        <table class="container">
+            <tr>
+                <td> Carrera </td>
+                <td  class="tt"> ¿Interesado? </td>
+                <td> Modalidades </td>
+            </tr>
+            <tr>
+                <td> Arquitectura</td>
+                <td class="tt"><input type="checkbox" name="arq" id="iarq" onchange="modal(this)"></td>
+                <td>
+                    <select name="marq" id="imarq" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Contador Publico</td>
+                <td class="tt"><input type="checkbox" name="con" id="icon" onchange="modal(this)"></td>
+                <td>
+                    <select name="mcon" id="imcon" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Ingenieria en Telecomunicaiones</td>
+                <td class="tt"><input type="checkbox" name="tele" id="itele" onchange="modal(this)"></td>
+                <td>
+                    <select name="mtele" id="imtele" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Ingenieria en Informatica </td>
+                <td class="tt"><input type="checkbox" name="info" id="iinfo" onchange="modal(this)"></td>
+                <td>
+                    <select name="minfo" id="iminfo" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Lic. en Administración</td>
+                <td class="tt"><input type="checkbox" name="adm" id="iadm" onchange="modal(this)"></td>
+                <td>
+                    <select name="madm" id="imadm" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Lic en Periodismo</td>
+                <td class="tt"><input type="checkbox" name="per" id="iper" onchange="modal(this)"></td>
+                <td>
+                    <select name="mper" id="imper" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td> Lic en Turismo</td>
+                <td class="tt"><input type="checkbox" name="tur" id="itur" onchange="modal(this)"></td>
+                <td>
+                    <select name="mtur" id="imtur" class="form-control" disabled required>
+                        <option value="" selected></option>
+                        <option value="pre">Presencial</option>
+                        <option value="dis">Distancia</option>
+                        <option value="amb">Ambas</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <button type="submit" id="send">Enviar</button>
+        <button type="reset" id="clean">Limpiar</button>
+    </form>
+</body>
+</html>

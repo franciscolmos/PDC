@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<alumnos xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="./alumnos.xsd">
+    <alumno>
+        <apellido>Apellido1</apellido>
+        <nombre>Nombre1</nombre>
+        <carreras>
+            <carrera plan="2003" periodo="201401">ING. INF</carrera>
+        </carreras>
+    </alumno>
+    <alumno>
+        <apellido>Apellido2</apellido>
+        <nombre>Nombre2</nombre>
+        <carreras>
+            <carrera plan="2009" periodo="201102">ABOGACIA</carrera>
+        </carreras>
+    </alumno>
+    <alumno>
+        <apellido>Apellido3</apellido>
+        <nombre>Nombre3</nombre>
+        <carreras>
+            <carrera plan="2008" periodo="201401">CONTADOR PÚBLICO</carrera>
+            <carrera plan="2010" periodo="201301">NOTARIADO</carrera>
+        </carreras>
+    </alumno>
+    <alumno>
+        <apellido>Apellido4</apellido>
+        <nombre>Nombre4</nombre>
+        <carreras>
+            <carrera plan="2003" periodo="201201">ING. INF</carrera>
+        </carreras>
+    </alumno>
+    <alumno>
+    	<apellido>Apellido5</apellido>
+    	<carreras>
+    		<carrera plan="2010">LIC. ADM.</carrera>
+    	</carreras>
+    </alumno>
+</alumnos>

@@ -1,0 +1,48 @@
+/*
+Estilos Generales
+*/
+html, body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10pt;
+    color: #000;
+}
+
+table {
+    border-spacing: 2px;
+	width: 60%;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+table thead, th {
+    background-color: #3300CC;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody {
+    background-color: #fff;
+}
+
+table tfoot {
+    background-color: #3366CC;
+    color: #fff;
+}
+
+td.top {
+	vertical-align: top;
+}
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+.fl {
+	float: left;
+}
+
+.cb {
+	clear: both;
+}

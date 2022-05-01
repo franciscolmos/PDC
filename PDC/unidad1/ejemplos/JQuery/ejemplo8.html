@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="description" content="Ejemplos de JQuery">
+		<meta name="author" content="Lic. Mariela Pastarini">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>jQuery - Ejemplo 8</title>
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./bootstrap.3.3.7/content/bootstrap-theme.min.css">
+        <script type="text/javascript" src="./bootstrap.3.3.7/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="./js/jquery.js"></script>
+        <script type="text/javascript" src="./js/ejemplo8.js"></script>
+    </head>
+    <body>
+		<h3>Web Storage</h3>
+		<div class="col-md-8 form-horizontal">
+			<div class="form-group">
+				<label class="col-md-3 control-label">Contador temporal</label>
+				<p id="tmp" class="col-md-2 alert bg-success"></p>
+				<div class="col-md-3">
+					<button class="btn btn-success" onclick="jUtils.setTmpCount()">Contar</button>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="col-md-3 control-label">Contador global</label>
+				<p id="global" class="col-md-2 alert bg-info"></p>
+				<div class="col-md-3">
+					<button class="btn btn-info" onclick="jUtils.setGlobalCount()">Contar</button>
+				</div>
+			</div>
+			<div class="form-group">
+			    <a href="./index.html">Volver al index principal</a>
+			</div>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<tipos_recursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:noNamespaceSchemaLocation="./tipos_recursos.xsd">
+   <tipo_recurso codigo="C">Computadora</tipo_recurso>
+   <tipo_recurso codigo="I">Impresora</tipo_recurso>
+</tipos_recursos>

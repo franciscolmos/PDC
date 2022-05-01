@@ -1,0 +1,31 @@
+h3 {
+	font-size: 12pt;
+}
+
+body {
+	font-family: "Trebuchet MS", Arial, Helyetica, sans-serif;
+	font-size: 10pt;
+}
+
+a {
+	color: #285194;
+	font-weight: bold;
+}
+
+table {
+	border-spacing: 2px;
+}
+
+thead {
+	color: #5B5555;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.even {
+	background-color: #C3D7F7;
+}
+
+.odd {
+	background-color: #88B1F2;
+}

@@ -1,0 +1,21 @@
+body{
+	background-color: #b3ffb3;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #006600;
+	font-size: 14pt;
+}
+
+h3{
+	color: #cc0000;
+}
+
+button{
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	width: 150px;
+	border: 1px solid #800000;
+	padding: 5px;
+	background-color: #800000;
+	color: #ff0000;
+}

@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+
+html, body, input {
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: #000;
+}
+
+#message, #response, #result {
+	display: none;	
+}
+
+#message {
+	width: 500px;
+  	height: 200px;
+ 	position: absolute;	
+	top: 50%;
+	left: 50%;
+	margin-top: -130px;
+	margin-left: -280px;
+	border: 1px solid #000;
+	padding: 30px;
+	background-color: #FF9966;
+}
+
+h3 {
+	color: #cc181e;
+	letter-spacing: 2px;
+}
+
+fieldset {
+	border-color: #cc181e;
+}
+
+span {
+	color: #cc181e;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+a {
+	color: #cc181e;
+}
+
+button {
+	background-color: #cc181e;
+	color: #fff;
+	border: 1px solid #000;
+	padding: 3px;
+	letter-spacing: 2px;
+	font-weight: bold;
+}

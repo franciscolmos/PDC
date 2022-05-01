@@ -1,0 +1,39 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 10pt;
+    color: #000;
+}
+
+table {
+	border-spacing: 1px;
+	border-width: 1px;	
+}
+
+table thead, th {
+    background-color: #00BFFF;
+    color: #fff;
+    font-weight: bold;
+}
+
+table tbody {
+    background-color: #AFEEEE;
+}
+
+th, td {
+	padding: 5px;
+}
+
+button {
+	border: none;
+	background-color: #00BFFF;
+	padding: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+a, a:hover, a:visited {
+	color: #000;	
+    font-weight: bold;
+}

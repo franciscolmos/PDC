@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="xml_new" deleted="false" description="tld declaration" enabled="true" name="tld declaration">&lt;?xml version="1.0" encoding="UTF-8"?&gt;&#13;
+&lt;taglib xmlns="http://java.sun.com/xml/ns/j2ee"&#13;
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"&#13;
+    xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"&#13;
+    version="2.0"&gt;&#13;
+	&lt;description&gt;&lt;/description&gt;&#13;
+	&lt;tlib-version&gt;2.1&lt;/tlib-version&gt;&#13;
+	&lt;short-name&gt;&lt;/short-name&gt;&#13;
+	&lt;uri&gt;&lt;/uri&gt;&#13;
+&lt;/taglib&gt;</template></templates>
